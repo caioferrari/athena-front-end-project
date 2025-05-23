@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Athena • Project 02</title>
+</head>
+<body>
+  <main>
+    <header>
+      <nav>
+        <img src="images/MyWebsite-Logo.png" alt="MyWebsite Logo" /></a>
+        <a class="menu-toggle">☰</a>
+        <ul>
+          <li><a href="/"><img src="images/icon-star.png" alt="Star" /><span>Home</span></a></li>
+          <li><a href="/destinations.html"><img src="images/icon-dolar.png" alt="Dolar" /><span>Destinations</span></a></li>
+          <li><a href="/contact.html"><img src="images/icon-mail.png" alt="Mail" /><span>Contact</span></a></li>
+          <li>
+            <form action="search.html" method="POST">
+              <input type="text" id="search" name="search" placeholder="Search" />
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <section id="welcome">
+        <!-- <h1>Welcome</h1>
+        <p>This is my website. Check my website and let's travel together.</p> -->
+        <div class="gallery-wrapper">
+          <div class="gallery">
+            <img src="images/banner-home-01.jpg" alt="Everyone Can Fly With Airoxe"  data-array-index="0" data-show="true" />
+            <img src="images/banner-home-02.jpg" alt="Travel Around the World"  data-array-index="1" data-show="false" />
+            <img src="images/banner-home-03.jpg" alt="Time to Travel"  data-array-index="2" data-show="false" />
+            <img src="images/banner-home-04.jpg" alt="Why Plan Your Travel With Us?"  data-array-index="3" data-show="false" />
+          </div>
+        </div>
+      </section>
+      <section id="clients">
+        <h2>What our clients say?</h2>
+        <div class="client-container">
+          <div>
+            <img src="images/icon-thumb.png" alt="Thumbs up" />
+            <h3>Excellent Support</h3>
+            <p>The team is responsive and the plaform is easy to use.</p>
+          </div>
+          <div>
+            <img src="images/icon-graphic.png" alt="Graphic" />
+            <h3>Best for Business</h3>
+            <p>Our workflow improved dramatically after switching.</p>
+          </div>
+          <div>
+            <img src="images/icon-checkmark.png" alt="Checkmark" />
+            <h3>Reliable Service</h3>
+            <p>We trust this company for our daily operations.</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </section>
+      <section id="destinations">
+        <h2>Our destinations</h2>
+        <p>We offer the best destinations, belive us!</p>
+        <div class="destinations">
+          <img src="images/destination-sao-paulo.jpg" alt="São Paulo in Brazil" data-country="Brazil" data-city="São Paulo" data-continent="South America">
+          <img src="images/destination-salar-de-uyuni.jpg" alt="Uyuni in Bolivia" data-country="Bolivia" data-city="Uyuni" data-continent="South America">
+          <img src="images/destination-taj-mahal.jpg" alt="Taj Mahal in India" data-country="India" data-city="Taj Mahal" data-continent="Asia" class="highlight">
+          <img src="images/destination-krakow.jpg" alt="Krakow in Poland" data-country="Poland" data-city="Krakow" data-continent="Europe">
+          <img src="images/destination-phi-phi.jpg" alt="Phi Phi Islands in Thailand" data-country="Thailand" data-city="Phi Phi Islands" data-continent="Asia">
+          <img src="images/destination-buenos-aires-obelisco.jpg" alt="Buenos Aires in Argentina" data-country="Argentina" data-city="Buenos Aires" data-continent="South America">
+          <img src="images/destination-salto-angel.jpg" alt="Salto Angel in Venezuela" data-country="Venezuela" data-city="Salto Angel" data-continent="South America">
+          <img src="images/destination-athens.jpg" alt="Athens in Greece" data-country="Greece" data-city="Athens" data-continent="Europe">
+          <img src="images/destination-lima-peru.jpg" alt="Lima in Peru" data-country="Peru" data-city="Lima" data-continent="South America">
+          <img src="images/destination-dublin.jpg" alt="Dublin in Ireland" data-country="Ireland" data-city="Dublin" data-continent="Europe">
+          <img src="images/destination-edinburgh.jpg" alt="Edimburgh in Scotland" data-country="Scotland" data-city="Edimburgh" data-continent="Europe" class="downlight">
+          <img src="images/destination-punta-cana.jpg" alt="Punta Cana in Republica Dominicana" data-country="Republica Dominicana" data-city="Punta Cana" data-continent="Caribbean">
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p>© 2025 All Rights Reserved</p>
+      <p>Email <a href="mailto:email@mywebsite.com">email@mywebsite.com</a> • Find us on Instagram <a href="https://www.instagram.com/mywebsite">@mywebsite</a> • Call us today: <a href="tel:8000777000">8000 777 000</a></p>
+      <address>1914 Fictional Ave. Suit 100, Devtown, Codeland, PI, 1915</address>
+      <a href="/">Home</a> • <a href="/destinations.html">Destinations</a> • <a href="/contact.html">Contact</a>
+    </footer>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>

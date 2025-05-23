@@ -1,0 +1,752 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix {
+  clear: both;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #701010;
+}
+
+header {
+  background: #FFF;
+  padding: 20px;
+  border-bottom: 2px solid #701010;
+  display: flow-root;
+  @media screen and (max-width: 768px) {
+    margin: 0px auto;
+    padding: 20px 0px;
+    text-align: center;
+  }
+  @media screen and (max-width: 430px) {
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    padding: 5px 0px;
+  }
+
+  div {
+    @media screen and (max-width: 768px) {
+      max-width: 375px;
+      margin: 0px auto;
+    }
+    @media screen and (max-width: 430px) {
+      max-width: 100%;
+      margin: 0px auto;
+    }
+  }
+  
+  img[alt="MyWebsite Logo"] {
+    width: 200px;
+    float: left;
+    margin-top: -35px;
+    @media screen and (max-width: 768px) {
+      margin-top: 0px;
+      margin-right: 0px;
+      float: inherit;
+    }
+    @media screen and (max-width: 430px) {
+      float: inherit;
+      margin: 0px auto;
+    }
+  }
+  
+  nav {
+    margin-top: 35px;
+    text-align: left;
+    position: relative;
+    @media screen and (max-width: 768px) {
+      margin-top: 0px;
+      text-align: center;
+    }
+    .menu-toggle {
+      width: 100%;
+      display: none;
+      cursor: pointer;
+      padding-left: 10px;
+      @media screen and (max-width: 768px) {
+        font-size: 30px;
+        display: block;
+      }
+    }
+    ul {
+      display: flex;
+      @media screen and (max-width: 768px) {
+        display: none;
+        padding-inline-start: 0px;
+        flex-direction: column;
+        align-items: center;
+        transition: display 1.15s ease;
+      }
+      &.active-menu {
+        @media screen and (max-width: 768px) {
+          display: flex;
+        }
+      }
+      
+      li {
+        text-transform: uppercase;
+        list-style: none;
+        padding: 0px 10px;
+        &:first-child {
+          margin-left: -40px;
+          @media screen and (max-width: 768px) {
+            margin-left: 0px;
+          }
+        }
+        &:last-child {
+          border: 0px;
+          margin-bottom: -25px;
+          @media screen and (max-width: 430px) {
+            margin-bottom: -11px;
+          }
+        }
+        @media screen and (max-width: 768px) {
+          width: 100%;
+          border-bottom: 1px solid #e1e1e1;
+          text-align: center;
+        }
+        a {
+          color: #701010;
+          text-decoration: none;
+          display: block;
+          @media screen and (max-width: 768px) {
+            padding: 10px 0px;
+          }
+          &:hover {
+            text-decoration: underline;
+            @media screen and (max-width: 768px) {
+              text-decoration: none;
+            }
+          }
+          img {
+            width: 0.7rem;
+            margin: 5px 5px;
+            float: left;
+            position: relative;
+            @media screen and (max-width: 768px) {
+              float: inherit;
+              margin: 0px 5px;
+            }
+          }
+        }
+      }
+    }
+    input[name='search'] {
+      width: 250px;
+      height: 35px;
+      position: absolute;
+      top: -5px;
+      right: 0;
+      margin: 0px 0px 10px;
+      padding: 3px 5px;
+      background: #f6f6f6;
+      border: 1px solid #a5a5a5;
+
+      @media screen and (max-width: 1024px) {
+        width: 175px;
+        padding: 5px 5px;
+      }
+      @media screen and (max-width: 768px) {
+        width: 90%;
+        position: inherit;
+        margin: 10px 0px 0px;
+      }
+  
+      &:focus {
+        outline: 0px;
+      }
+    }
+  }
+}
+
+main {
+  background: #FFF;
+}
+
+.container {
+  margin: 0 auto;
+  background: #FFF;
+  padding: 0px 200px;
+
+  /*Laptop*/
+  @media screen and (max-width: 1024px) {
+    padding: 0px 50px;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 0px 25px;
+  }
+  
+  h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #000;
+  }
+  
+  h2 {
+    font-size: 27px;
+    font-weight: 700;
+    color: #000;
+  }
+}
+
+.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+
+  li {
+    display: inline;
+    font-size: 18px;
+
+    a {
+      color: #701010;
+      text-decoration: none;
+
+      &:hover {
+        color: #01447e;
+        text-decoration: underline;
+      }
+    }
+
+    &+li:before {
+      padding: 8px;
+      color: black;
+      content: "/\00a0";
+    }
+  }
+}
+
+#welcome {
+  margin-top: 50px;
+  div.gallery-wrapper {
+    width: 100%;
+    padding-bottom: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+  div.gallery {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Maintain aspect ratio and cover the container */
+      position: absolute;
+      transition: opacity 0.5s ease;
+      opacity: 0;
+      &:first-child {
+        opacity: 1;
+      }
+    }
+  }
+}
+#clients {
+  width: 100%;
+
+  .client-container {
+    width: 100%;
+    display: flex;
+    @media screen and (max-width: 430px) {
+      display: block;
+    }
+
+    div {
+      background-color: #F2F2F2;
+      float: left;
+      margin: 0px 5px;
+      padding: 0px 10px;
+      @media screen and (max-width: 430px) {
+        float: inherit;
+        margin: 0px 0px 20px;
+        padding: 10px 10px;
+      }
+
+      h3 {
+        @media screen and (max-width: 430px) {
+          margin-bottom: 0px;
+        }
+      }
+
+      img {
+        width: 1.5rem;
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+.destinations {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 5px;
+  overflow: hidden;
+  
+  img {
+    width: 100%;
+    transition: scale 350ms ease, opacity 350ms linear;
+    
+    &.highlight {
+      width: 100%;
+      grid-row-start: 1;
+      grid-column-start: 1;
+      grid-row-end: 3;
+      grid-column-end: 3;
+    }
+    &.downlight {
+      width: 100%;
+      grid-row-start: 5;
+      grid-column-start: -1;
+      grid-row-end: 7;
+      grid-column-end: -3;
+    }
+  }
+  /* &:has(img:hover) > img:not(:hover) {
+    scale: .8;
+    opacity: .5;
+  } */
+}
+
+#destinations {
+  #list {
+    min-height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 5px;
+    @media screen and (max-width: 430px) {
+      margin-bottom: 75px;
+    }
+    
+    @media screen and (max-width: 430px) {
+      display: flex;
+      flex-direction: column;
+      grid-template-columns: 1fr;
+      grid-gap: 0px;
+      font-size: 14px;
+    }
+
+    .filter {
+      fieldset {
+        border: 0px;
+        padding-block: 0;
+        padding-inline: 0;
+        margin-inline: 0;
+
+        a {
+          &:nth-child(even) {
+            label {
+              background-color: #DEDEDE;
+            }
+          }
+          &:nth-child(odd) {
+            label {
+              background-color: #F1F1F1;
+            }
+          }
+          &:hover {
+            label {
+              background: #CBCBCB;
+            }
+          }
+          &:active {
+            label {
+              background: #CBCBCB;
+            }
+          }
+        }
+
+        input[type='radio'] {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          -ms-appearance: none;
+          -o-appearance: none;
+          appearance: none;
+        }
+        label {
+          width: 100%;
+          color: #5e5e5e;
+          display: block;
+          margin-left: 0px;
+          margin-bottom: -22px;
+          padding: 8px 5px;
+          background-color: #01447e;
+          cursor: pointer;
+          position: relative;
+          span {
+            position:absolute;
+            font-style: normal;
+            font-size: 12px;
+            color: #fff;
+            background: #5e5e5e;
+            border-radius: 20px;
+            width: 22px;
+            height: 22px;
+            padding: 2px 5px;
+            right: 5px;
+          }
+        }
+      }
+      .continent {
+        h2 {
+          margin-bottom: -12px;
+        }
+      }
+    }
+    .destinationsResults {
+      > h2 {
+        margin-bottom: -19px;
+        @media screen and (max-width: 430px) {
+          margin-top: 45px;
+        }
+      }
+      .destinationsList {
+        display: flow-root;
+        article {
+          display: grid;
+          /* grid-gap: 5px; */
+          grid-template-columns: repeat(2, 1fr);
+          @media screen and (max-width: 768px) {
+            height: inherit;
+            margin-bottom: 20px;
+          }
+          @media screen and (max-width: 430px) {
+            display: inherit;
+            margin-bottom: 0px;
+          }
+      
+          p {
+            margin-top: -25px;
+          }
+      
+          picture {
+            width: 250px;
+            height: 250px;
+            overflow: hidden;
+            /* margin-right: 20px; */
+            /* float: left; */
+      
+            @media screen and (max-width: 768px) {
+              width: 100%;
+              height: 150px;
+              overflow: hidden;
+              float: inherit;
+              position: inherit;
+            }
+            a {
+              transition: 0.3s;
+              img {
+                width: 97%;
+                margin-top: 30px;
+                margin-left: 0px;
+        
+                @media screen and (max-width: 768px) {
+                }
+              }
+            }
+          }
+          div:nth-child(2) {
+            a {
+              background: #701010;
+              color: #FFF;
+              text-decoration: none;
+              padding: 10px 20px;
+              transition: 0.3s;
+        
+              &:hover {
+                background: #d9b3d0;
+              }
+        
+              @media screen and (max-width: 768px) {
+                position: inherit;
+              }
+            }
+          }
+        }
+      } 
+    }
+  }
+}
+
+#profile {
+  .image-profile {
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      margin-top: -200px;
+      @media screen and (max-width: 768px) {
+        margin-top: 0px;
+      }
+      @media screen and (max-width: 430px) {
+        margin-top: 0px;
+      }
+    }
+  }
+  .destination-details {
+    display: grid;
+    grid-template-columns: 3fr 1.5fr;
+    grid-gap: 45px;
+    @media screen and (max-width: 768px) {
+      display: inherit;
+      grid-gap: 0;
+    }
+    .destination-description {
+      text-align: justify;
+      h1 {
+        margin-top: 0px;
+        margin-bottom: 20px;
+      }
+      .type-of-tourism {
+        ul.spots {
+          display: flex;
+          flex-wrap: wrap;
+          margin-left: -40px;
+          > li {
+            list-style-type: none;
+            border: 1px solid #a5a5a5;
+            border-radius: 20px;
+            padding: 5px 25px;
+            margin-bottom: 7px;
+            margin-right: 4px;
+            &:last-child {
+            }
+          }
+        }
+        .review {
+          width: 100%;
+          span {
+            padding: 0px 10px;
+          }
+          .review-box {
+            font-size: 20px;
+            width: 188px;
+            height: 35px;
+            margin-right: 0px;
+            border: 0px;
+            border-radius: 0px;
+            padding: 0px;
+            margin: -5px 0px 10px;
+            background: rgb(220,220,230);
+            position: relative;
+            overflow: hidden;
+            cursor:default;
+            float: left;
+            .review-bar {
+              width: 100%; /*(100xreview/5)*/
+              height: 35px;
+              position: absolute;
+              background: #00b67a;
+              left: 0%;
+              z-index: 998;
+            }
+            .review-stars {
+              width: 100%;
+              height: 35px;
+              position: absolute;
+              z-index: 999;
+              ul {
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 0px;
+                margin-left: -40px;
+                li {
+                  color: #FFF;
+                  list-style-type: none;
+                  padding: 3px 8px;
+                  border-left: 2px solid #FFF;
+                  &:first-child {
+                    border: 0px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .destination-offer {
+      h4 {
+        margin-bottom: 0px;
+      }
+      .book-trip {
+        line-height: 20px;
+        h3 {
+          color: #701010;
+        }
+        .price-was {
+          text-decoration:line-through;
+          padding-right: 4px;
+        }
+        .price-total {
+          font-size: 29px;
+        }
+        input[type="date"] {
+          width: 100%;
+          height: 40px;
+          font-family: "Jost", sans-serif;
+          margin-top: -10px;
+        }
+        input[type="number"] {
+          width: 100px;
+          height: 40px;
+          font-size: 20px;
+          text-align: center;
+        }
+        button {
+          width: 100%;
+          height: 60px;
+          font-weight: bold;
+          color: #FFF;
+          border: 0px;
+          border-radius: 10px;
+          background: #701010;
+        }
+        aside {
+          display: flex;
+          flex-direction: column;
+          @media screen and (max-width: 768px) {
+            margin-bottom: 50px;
+          }
+          p {
+            width: 100%;
+            display: block;
+            margin-bottom: 0px;
+            padding: 2px 0px;
+            i {
+              img {
+                width: 10%;
+                margin-top: -3px;
+                margin-right: 5px;
+                float: left;
+                @media screen and (max-width: 768px) {
+                  width: 5%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .extra details {
+    width: 100%;
+    padding: 20px 5px;
+    display: block;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+    &:last-child {
+      border-bottom: 0px;
+    }
+  }
+  #list {
+    display: block;
+  }
+}
+
+#contact {
+  form {
+    margin-bottom: 100px;
+    label,
+    input,
+    textarea {
+      display: block;
+    }
+  
+    input,
+    textarea {
+      width: 100%;
+      height: 45px;
+      margin: 0px 0px 10px;
+      padding: 3px 5px;
+      background: #F1F1F1;
+      border: 1px solid #F1F1F1;
+  
+      &:focus {
+        outline: 0px;
+      }
+    }
+  
+    textarea {
+      height: 150px;
+    }
+  
+    button {
+      background: #701010;
+      color: #FFF;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    .required {
+      background: #701010;
+      font-size: 12px;
+      color: #FFF;
+      margin-top: 10px;
+      padding: 3px 10px;
+
+      &.success {
+        background: #32a852;
+      }
+
+      ul {
+        padding: 5px 35px;
+        margin-left: 0px;
+        border: 1px dotted #d9b3d0;
+        li {
+          margin: 0px;
+        }
+      }
+
+      p {
+        padding: 5px 10px;
+        margin-left: 0px;
+        border: 1px dotted #d9b3d0;
+      }
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  background: #701010;
+  text-align: center;
+  padding: 0px 0px 10px;
+  
+  address {
+    color: #FFF;
+    @media screen and (max-width: 430px) {
+      font-size: 14px;
+    }
+  }
+  p {
+    color: #FFF;
+    &:first-child {
+      width: 100%;
+      color: #000;
+      padding: 10px 0;
+      background-color: #FFF;
+    }
+  }
+
+  a {
+    color: #d9b3d0;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

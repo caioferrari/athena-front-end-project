@@ -1,0 +1,243 @@
+[
+  {
+    "id" : "1001SA",
+    "country": "Brazil",
+    "continent" : "South America",
+    "city" : "São Paulo",
+    "typeOfTourism" : ["Gastronomic", "Business"],
+    "about" : "São Paulo, Brazil's vibrant heart, is a colossal metropolis teeming with energy and diversity. As Latin America's economic powerhouse, 'Sampa' pulsates with a dynamic cultural scene, world-class gastronomy, and a unique blend of traditions shaped by its vast immigrant history. A concrete jungle with hidden green spaces, it offers an intense and unforgettable urban experience.",
+    "description" : "Ah, São Paulo! Prepare to be swept away by a city that pulses with an electrifying energy. This sprawling metropolis is a vibrant tapestry woven with diverse cultures, offering a fascinating blend of the old and the strikingly modern. Wander through the historic center, where grand colonial architecture whispers tales of Brazil's past, then find yourself gazing up at sleek skyscrapers that pierce the clouds, a testament to São Paulo's dynamic present.<br /><br />Get ready for a culinary adventure that spans the globe, from traditional churrascarias serving succulent grilled meats to innovative restaurants pushing gastronomic boundaries. Explore bustling markets overflowing with exotic fruits and local crafts, and lose yourself in the rhythm of samba in lively neighborhoods. Discover world-class museums and art galleries showcasing everything from classical masterpieces to cutting-edge contemporary works. And don't forget the green oases scattered throughout the city, offering tranquil escapes from the urban buzz. São Paulo is a city that truly has something for everyone, a place that will ignite your senses and leave you with unforgettable memories. Come and experience the vibrant heart of Brazil!",
+    "src" : "../images/destination-sao-paulo.jpg",
+    "sightseen" : ["Parque Ibirapuera", "Pinacoteca", "Sé Cathedral", "Museu do Futebol", "Allianz Parque"],
+    "review" : 4.5,
+    "price" : 2500,
+    "salePrice" : 1999.99,
+    "includes" : {
+      "ticket": true,
+      "meal" : true,
+      "accommodation" : true,
+      "excursions" : 8,
+      "days" : 11
+    }
+  },{
+    "id" : "1002SA",
+    "country" : "Bolivia",
+    "continent" : "South America",
+    "city" : "Uyuni",
+    "typeOfTourism" : ["Adventure"],
+    "about" : "Uyuni, Bolivia, is a high-altitude town serving as the gateway to the surreal Salar de Uyuni, the world's largest salt flats. 1  This stark yet stunning landscape offers otherworldly vistas and serves as a hub for exploring the surrounding Andean wonders.",
+    "description" : "The Salar de Uyuni in Bolivia is an otherworldly expanse that promises an unforgettable journey. As the world's largest salt flat, stretching over 10,000 square kilometers, it presents a surreal landscape of blinding white that feels like stepping onto another planet. Situated high in the Andes, at an altitude of about 3,650 meters, the Salar is a mesmerizing result of prehistoric lakes that evaporated, leaving behind a vast, thick crust of salt.<br /><br />Visiting the Salar de Uyuni offers unique experiences depending on the time of year. During the rainy season, roughly from December to April, a thin layer of water transforms the salt flat into a breathtaking natural mirror, reflecting the sky with stunning clarity. This creates incredible photographic opportunities, blurring the lines between earth and sky. However, it's important to note that some areas, like Incahuasi Island, might become inaccessible during this time due to flooding.<br /><br />In the dry season, from May to November, the salt flats reveal fascinating hexagonal patterns formed by the salt, and the clear skies offer fantastic opportunities for stargazing. With minimal light pollution, the night sky over Uyuni is a dazzling display of stars, planets, and constellations, sometimes even reflected on the dry salt surface.<br /><br />Beyond the vast white expanse, the Uyuni region boasts other natural wonders. Don't miss the haunting Train Cemetery, a collection of rusting locomotives and carriages on the outskirts of Uyuni town. The vibrant Laguna Colorada, with its striking red hue caused by algae and teeming with flamingos, and the steaming geysers of Sol de Mañana offer glimpses into the dramatic volcanic landscapes of the Altiplano. Incahuasi Island, dotted with giant cacti that grow incredibly slowly, provides a unique vantage point to appreciate the scale of the salt flats.<br /><br />Tours are the best way to explore the Salar de Uyuni, with options ranging from one-day excursions to multi-day adventures that delve deeper into the surrounding landscapes. These tours often include visits to the highlights mentioned above and provide transportation and guidance across this unique terrain. Be prepared for varying temperatures, with warm days and freezing nights, and take precautions for the high altitude. A trip to Uyuni is an adventure into a starkly beautiful and surreal environment that will leave a lasting impression.",
+    "src" : "../images/destination-salar-de-uyuni.jpg",
+    "sightseen" : ["Salar de Uyuni", "Train Cemitery", "Flamingo Lake", "Geiser Sol de Mañana"],
+    "review" : 5,
+    "price" : 999,
+    "salePrice" : 0,
+    "includes" : {
+      "ticket": true,
+      "meal" : true,
+      "accommodation" : true,
+      "excursions" : 3,
+      "days" : 4
+    }
+  },{
+    "id" : "1003A",
+    "country" : "India",
+    "continent" : "Asia",
+    "city" : "Taj Mahal",
+    "typeOfTourism" : ["Cultural", "Heritage"],
+    "about" : "The Taj Mahal, an iconic ivory-white marble mausoleum in Agra, India, stands as a timeless testament to love. Built by Mughal emperor Shah Jahan for his wife, Mumtaz Mahal, its breathtaking beauty and intricate artistry continue to captivate the world. A true wonder of Mughal architecture.",
+    "description" : "Agra, a city steeped in history and architectural grandeur, is a jewel in India's crown, most famously known as the home of the magnificent Taj Mahal. This iconic monument, a UNESCO World Heritage site and a symbol of eternal love, was built by Mughal Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal. Its pristine white marble, intricate inlay work, and serene gardens draw millions of visitors each year, especially at sunrise and sunset when the changing light casts a magical glow upon its facade.<br /><br />However, Agra offers much more than just the Taj. The Agra Fort, another UNESCO World Heritage site, is a sprawling red sandstone fortress that served as the main residence of the Mughal emperors until the capital was shifted to Delhi. Within its formidable walls lie a fascinating complex of palaces, audience halls, and mosques, each telling tales of the empire's power and artistry. Don't miss the Diwan-i-Aam (hall of public audience) and the Diwan-i-Khas (hall of private audience), as well as the Jahangir Palace and the Khas Mahal. From certain points within the fort, you can also enjoy breathtaking views of the Taj Mahal.<br /><br />Another significant attraction is the Itmad-ud-Daulah's Tomb, often referred to as the \"Baby Taj.\" This exquisite tomb, built entirely of white marble and adorned with intricate pietra dura inlay work, is considered a precursor to the Taj Mahal and offers a glimpse into the evolving Mughal architectural style. Its delicate craftsmanship and serene setting make it a must-visit.<br /><br />A short drive from Agra lies Fatehpur Sikri, a fascinating abandoned city built by Emperor Akbar. This UNESCO World Heritage site, with its red sandstone structures, offers a captivating insight into the planned urban design of the Mughal era. Explore its impressive Buland Darwaza (Victory Gate), the Jama Masjid, and the various palaces and courtyards that have stood the test of time.<br /><br />For a different perspective of the Taj Mahal, head across the Yamuna River to Mehtab Bagh, a garden offering stunning panoramic views of the monument, particularly beautiful at sunset. Agra is also known for its vibrant markets, such as Sadar Bazaar and Kinari Bazaar, where you can find exquisite marble handicrafts, leather goods, and the famous local sweet, petha.<br /><br />Exploring Agra is a journey through a glorious past, where magnificent architecture stands as a testament to the rich legacy of the Mughal Empire. Beyond the iconic Taj Mahal, the city offers a wealth of historical and cultural experiences that will leave you enchanted.",
+    "src" : "../images/destination-taj-mahal.jpg",
+    "sightseen" : ["Taj Mahal"],
+    "review" : 5,
+    "price" : 3500,
+    "salePrice" : 0,
+    "includes" : {
+      "ticket": true,
+      "meal" : false,
+      "accommodation" : true,
+      "excursions" : 1,
+      "days" : 3
+    }
+  },{
+    "id" : "1004EUR",
+    "country" : "Poland",
+    "continent" : "Europe",
+    "city" : "Krakow",
+    "typeOfTourism" : ["Cultural", "Heritage"],
+    "about" : "Krakow, Poland, a city steeped in history and charm, boasts a beautifully preserved medieval Old Town, a vibrant cultural scene, and poignant reminders of its past, including the Wawel Castle and the former Jewish quarter of Kazimierz. A captivating blend of the old and the new.",
+    "description" : "Krakow, Poland, is a captivating city with a UNESCO-listed Old Town, a vibrant Main Market Square, and the historic Wawel Castle overlooking the Vistula River. Explore charming streets, visit St. Mary's Basilica with its hourly bugle call, and discover the unique atmosphere of the former Jewish Quarter, Kazimierz. Don't miss poignant historical sites like Oskar Schindler's Factory and consider day trips to the Wieliczka Salt Mine or Auschwitz-Birkenau. Krakow offers a rich blend of medieval architecture, cultural experiences, and significant historical narratives.<br /><br />Beyond its stunning architecture, Krakow pulses with a vibrant cultural energy. Enjoy traditional Polish cuisine in charming restaurants, discover local crafts in the Cloth Hall, and soak in the lively atmosphere of its many cafes and bars. The city's blend of historical significance and modern dynamism makes it a truly engaging destination.",
+    "src" : "../images/destination-krakow.jpg",
+    "sightseen" : ["St. Mary's Basilica", "Katedra Wawelska", "Podziemia Rynku"],
+    "review" : 5,
+    "price" : 500,
+    "salePrice" : 0,
+    "includes" : {
+      "ticket": true,
+      "meal" : false,
+      "accommodation" : false,
+      "excursions" : 2,
+      "days" : 5
+    }
+  },{
+    "id" : "1005A",
+    "country" : "Thailand",
+    "continent" : "Asia",
+    "city" : "Phi Phi Islands",
+    "typeOfTourism" : ["Sea", "Leisure"],
+    "about" : "Phi Phi Islands, Thailand, are a stunning archipelago of turquoise waters, dramatic limestone cliffs, and powdery white-sand beaches. Famous for Maya Bay (from \"The Beach\"), these islands offer breathtaking natural beauty, vibrant coral reefs perfect for snorkeling and diving, and a quintessential tropical paradise escape.",
+    "description" : "Phi Phi Island, located in the Andaman Sea off the coast of Thailand, is a tropical paradise renowned for its stunning natural beauty. This archipelago consists of six islands, the two main ones being Phi Phi Don and Phi Phi Leh. Phi Phi Don is the larger and the only inhabited island, offering accommodation, restaurants, and a vibrant nightlife centered around Tonsai Village. Phi Phi Leh, on the other hand, is uninhabited and famous for Maya Bay, a breathtaking cove sheltered by towering limestone cliffs and made iconic by the movie 'The Beach.'<br /><br />The allure of Phi Phi lies in its dramatic limestone karsts rising vertically from the emerald waters, creating a spectacular seascape. Snorkeling and diving enthusiasts are drawn to the crystal-clear waters teeming with colorful coral reefs and diverse marine life, including tropical fish, blacktip reef sharks, and sea turtles. Popular snorkeling and diving spots abound around both Phi Phi Don and Phi Phi Leh, offering unforgettable underwater experiences.",
+    "src" : "../images/destination-phi-phi.jpg",
+    "sightseen" : ["Maya Bay", "Viking Cave", "Monkey Beach"],
+    "review" : 5,
+    "price" : 6000,
+    "salePrice" : 4500,
+    "includes" : {
+      "ticket": false,
+      "meal" : false,
+      "accommodation" : true,
+      "excursions" : 8,
+      "days" : 10
+    }
+  },{
+    "id" : "1006SA",
+    "country" : "Argentina",
+    "continent" : "South America",
+    "city" : "Buenos Aires",
+    "typeOfTourism" : ["Leisure", "Gastronomic"],
+    "about" : "Buenos Aires, Argentina, a captivating metropolis exuding European elegance and Latin American passion. Birthplace of tango and home to grand architecture, vibrant neighborhoods like San Telmo and Palermo pulsate with culture, world-class cuisine, and a unique 'porteño' spirit. A city that seduces with its history, art, and lively urban rhythm.",
+    "description" : "Buenos Aires, the vibrant capital of Argentina, is a city that pulsates with passion and a rich cultural heritage. Known as the \"Paris of South America\" for its elegant architecture, grand avenues, and European flair, Buenos Aires offers a captivating blend of history and modernity. Explore the colorful houses of La Boca, the birthplace of tango, and feel the rhythm of this iconic dance in a local milonga. Wander through the upscale Recoleta neighborhood, home to the famous Recoleta Cemetery with its ornate mausoleums, including that of Eva Perón. Marvel at the iconic Obelisco standing proudly in the heart of Avenida 9 de Julio, one of the world's widest avenues.<br /><br />Beyond its stunning cityscape, Buenos Aires boasts a thriving arts and culinary scene. Discover world-class museums like the MALBA (Latin American Art Museum of Buenos Aires) and the Teatro Colón, an opulent opera house. Indulge in Argentina's renowned cuisine, from savoring succulent asado (barbecue) to enjoying delicious empanadas and, of course, the rich flavors of dulce de leche. Experience the lively nightlife, from trendy bars in Palermo to traditional cafés steeped in history. With its captivating blend of European sophistication and Latin American zest, Buenos Aires offers an unforgettable and enriching travel experience.",
+    "src" : "../images/destination-buenos-aires-obelisco.jpg",
+    "sightseen" : ["Obelisco", "Puerto Madero", "Camenito", "La Bombonera"],
+    "review" : 4.5,
+    "price" : 1500,
+    "salePrice" : 999,
+    "includes" : {
+      "ticket": true,
+      "meal" : false,
+      "accommodation" : true,
+      "excursions" : 0,
+      "days" : 5
+    }
+  },{
+    "id" : "1007SA",
+    "country" : "Venezuela",
+    "continent" : "South America",
+    "city" : "Salto Angel",
+    "typeOfTourism" : ["Adventure"],
+    "about" : "Angel Falls, the world's tallest uninterrupted waterfall, plunges dramatically from the Auyán-tepuy mountain in Venezuela's Canaima National Park. This remote and breathtaking natural wonder, cascading nearly a kilometer, is a testament to the raw beauty and scale of the Guiana Highlands, captivating all who witness its misty grandeur.",
+    "description" : "Salto Ángel, or Angel Falls, nestled deep within the Canaima National Park in Venezuela, is a natural wonder of breathtaking scale and beauty. Plunging from the Auyán-tepuy mountain, it is the world's highest uninterrupted waterfall, cascading down an astonishing 979 meters (3,212 feet). Reaching this remote paradise is an adventure in itself, typically involving a flight to Canaima followed by a journey along rivers by boat, offering glimpses of the stunning tepuis (table-top mountains) that characterize this unique landscape.<br /><br />The sheer magnitude of Angel Falls is awe-inspiring, with the water often turning into mist before reaching the base due to the immense height. The surrounding Canaima National Park, a UNESCO World Heritage site, is a pristine wilderness of lush rainforests, winding rivers, and dramatic tepuis, home to diverse flora and fauna. Experiencing the raw power and untouched beauty of Salto Ángel is an unforgettable journey into one of Earth's most spectacular natural treasures.",
+    "src" : "../images/destination-salto-angel.jpg",
+    "sightseen" : ["Salto Angel Falls", "Parque Nacional Canaima"],
+    "review" : 5,
+    "price" : 3100,
+    "salePrice" : 1999,
+    "includes" : {
+      "ticket": true,
+      "meal" : true,
+      "accommodation" : true,
+      "excursions" : 6,
+      "days" : 7
+    }
+  },{
+    "id" : "1008EUR",
+    "country" : "Greece",
+    "continent" : "Europe",
+    "city" : "Athens",
+    "typeOfTourism" : ["Cultural", "Heritage"],
+    "about" : "Athens, Greece, the ancient cradle of Western civilization, is a city where history breathes on every corner. 1  From the iconic Acropolis with the Parthenon to the charming Plaka district, Athens offers a captivating journey through millennia of philosophy, democracy, and art, seamlessly blending its glorious past with a vibrant modern energy.",
+    "description" : "Athens, the historical heart of Western civilization, is a city where ancient wonders stand proudly alongside modern life. As the birthplace of democracy, philosophy, and art, Athens offers a profound journey through millennia of human achievement. The iconic Acropolis, topped by the majestic Parthenon, dominates the city skyline, a powerful reminder of Greece's glorious past. Explore the ancient Agora, the Temple of Olympian Zeus, and the Panathenaic Stadium, where the first modern Olympic Games were held.<br /<br />Beyond its ancient marvels, Athens is a vibrant and bustling modern capital. Wander through the charming Plaka district with its narrow streets, tavernas, and shops. Discover world-class museums like the Acropolis Museum and the National Archaeological Museum, housing invaluable artifacts. Enjoy the lively atmosphere of Monastiraki Square and savor delicious Greek cuisine. With its captivating blend of ancient history and contemporary energy, Athens offers an enriching and unforgettable experience.",
+    "src" : "../images/destination-athens.jpg",
+    "sightseen" : ["Acropolis", "Parthenon", "Athena Sanctuary"],
+    "review" : 5,
+    "price" : 4500,
+    "salePrice" : 0,
+    "includes" : {
+      "ticket": true,
+      "meal" : false,
+      "accommodation" : false,
+      "excursions" : 3,
+      "days" : 5
+    }
+  },{
+    "id" : "1009SA",
+    "country" : "Peru",
+    "continent" : "South America",
+    "city" : "Lima",
+    "typeOfTourism" : ["Gastronomic", "Business"],
+    "about" : "Lima, Peru's sprawling capital, is a vibrant metropolis where colonial history meets modern dynamism. From the well-preserved historic center, a UNESCO World Heritage site, to the bohemian Barranco district and the upscale Miraflores, Lima offers a rich tapestry of cultural experiences, a world-renowned culinary scene, and a captivating blend of ancient traditions and contemporary life along the Pacific coast.",
+    "description" : "Lima, the sprawling capital of Peru, is a vibrant metropolis that seamlessly blends its rich colonial past with a dynamic modern energy. Situated on the Pacific coast, this \"City of Kings\" boasts a fascinating history, evident in its well-preserved historic center, a UNESCO World Heritage site. Wander through the Plaza de Armas, the heart of the city, surrounded by impressive colonial architecture like the Government Palace, the Cathedral of Lima, and the Archbishop's Palace. Explore the intricate catacombs of the San Francisco Monastery and delve into the pre-Columbian history at the Larco Museum, home to an extensive collection of ancient Peruvian artifacts.<br /<br />Beyond its historical treasures, Lima offers a thriving culinary scene that has garnered international acclaim. From savoring fresh ceviche, Peru's national dish, in the Miraflores district overlooking the Pacific Ocean, to experiencing innovative fusion cuisine in the bohemian Barranco neighborhood, Lima is a gastronomic delight. Explore bustling markets brimming with exotic fruits and local ingredients, and don't miss the opportunity to try traditional Peruvian beverages like pisco sour. With its captivating blend of history, culture, and exceptional food, Lima provides a truly immersive and unforgettable travel experience.",
+    "src" : "../images/destination-lima-peru.jpg",
+    "sightseen" : ["Miraflores", "Barranco"],
+    "review" : 5,
+    "price" : 2500,
+    "salePrice" : 0,
+    "includes" : {
+      "ticket": true,
+      "meal" : true,
+      "accommodation" : true,
+      "excursions" : 5,
+      "days" : 7
+    }
+  },{
+    "id" : "1010EUR",
+    "country" : "Ireland",
+    "continent" : "Europe",
+    "city" : "Dublin",
+    "typeOfTourism" : ["Leisure", "Gastronomic", "Cultural"],
+    "about" : "Dublin, the vibrant capital of Ireland, is a city steeped in history, literature, and a famously welcoming spirit. 1  From its medieval Dublin Castle and the iconic Trinity College with the Book of Kells, to its traditional pubs echoing with live music and storytelling, Dublin offers a captivating blend of ancient heritage and lively contemporary culture. 1  A city that charms with its warmth and character.",
+    "description" : "Dublin, the lively capital of Ireland, is a city brimming with history, culture, and a famously welcoming atmosphere. Nestled on the River Liffey, Dublin boasts a rich past that is evident in its historic architecture, from the imposing Dublin Castle to the grand Trinity College, home to the magnificent Long Room and the illuminated Book of Kells. Stroll through the colorful streets, soak in the traditional pubs with their live music sessions, and feel the warmth of Irish hospitality.<br /><br />Beyond its historical landmarks, Dublin offers a vibrant modern scene. Explore the trendy Temple Bar district, though be prepared for its bustling energy, and discover the city's literary heritage, following in the footsteps of renowned writers like James Joyce and W.B. Yeats. Visit the Guinness Storehouse for panoramic city views and a taste of Ireland's iconic stout, or explore the Jameson Distillery Bow St. to learn about Irish whiskey. With its captivating blend of history, friendly locals, and lively culture, Dublin promises a memorable and engaging experience.",
+    "src" : "../images/destination-dublin.jpg",
+    "sightseen" : ["Dublin Castle", "St. Patrick's Cathedral", "Guinnes House"],
+    "review" : 4.8,
+    "price" : 799,
+    "salePrice" : 599,
+    "includes" : {
+      "ticket": true,
+      "meal" : false,
+      "accommodation" : false,
+      "excursions" : 4,
+      "days" : 4
+    }
+  },{
+    "id" : "1011EUR",
+    "country" : "Scotland",
+    "continent" : "Europe",
+    "city" : "Edimburgh",
+    "typeOfTourism" : ["Cultural", "Heritage"],
+    "about" : "Edinburgh, Scotland's captivating capital, is a city of dramatic landscapes and rich history. Dominated by the majestic Edinburgh Castle perched atop an extinct volcano, its medieval Old Town and elegant Georgian New Town offer a compelling contrast. With its lively festivals, literary heritage, and atmospheric charm, Edinburgh leaves a lasting impression.",
+    "description" : "Ah, Edinburgh! Prepare to be enchanted by a city steeped in history, dramatic landscapes, and a captivating atmosphere. The capital of Scotland, Edinburgh is a place where medieval charm meets vibrant modern life. Dominating the skyline is the majestic Edinburgh Castle, perched atop an extinct volcano, offering breathtaking panoramic views of the city and the Firth of Forth. Explore its historic halls, witness the firing of the One O'Clock Gun, and delve into Scotland's rich past.<br /><br />Wander down the Royal Mile, the historic heart of the Old Town, connecting Edinburgh Castle to the Palace of Holyroodhouse, the official residence of the British monarch in Scotland. Along this iconic street, you'll discover charming closes (narrow alleyways), traditional pubs, and historic landmarks like St. Giles' Cathedral. Hike up Arthur's Seat, another ancient volcano, for stunning vistas, or explore the elegant Georgian architecture of the New Town, a UNESCO World Heritage site. With its intriguing blend of history, stunning scenery, and lively cultural scene, Edinburgh offers a truly unforgettable experience.",
+    "src" : "../images/destination-edinburgh.jpg",
+    "sightseen" : ["Dublin Castle", "St. Patrick's Cathedral", "Guinnes House"],
+    "review" : 5,
+    "price" : 1000,
+    "salePrice" : 880,
+    "includes" : {
+      "ticket": true,
+      "meal" : false,
+      "accommodation" : false,
+      "excursions" : 0,
+      "days" : 3
+    }
+  },{
+    "id" : "1012C",
+    "country" : "Republica Dominicana",
+    "continent" : "Caribbean",
+    "city" : "Punta Cana",
+    "typeOfTourism" : ["Sea", "Leisure"],
+    "about" : "Punta Cana, Dominican Republic, is a premier Caribbean destination renowned for its pristine white-sand beaches, swaying palm trees, and turquoise waters. Offering luxurious resorts, world-class golf courses, and a vibrant atmosphere, it's the perfect escape for relaxation, watersports, and enjoying the quintessential tropical paradise.",
+    "description" : "Punta Cana, located on the easternmost tip of the Dominican Republic, is a quintessential Caribbean paradise famed for its seemingly endless stretches of pristine white-sand beaches fringed by swaying palm trees. This popular tourist destination boasts crystal-clear turquoise waters perfect for swimming, snorkeling, and a variety of water sports. The coastline, extending for nearly 50 kilometers, is dotted with numerous all-inclusive resorts offering a relaxing and indulgent escape.<br /<br />Beyond the idyllic beaches, Punta Cana offers opportunities for adventure and exploration. Discover natural parks with lush vegetation, enjoy catamaran cruises, and explore underwater wonders through scuba diving excursions. The area also features golf courses, vibrant nightlife, and opportunities to experience local culture and cuisine. Punta Cana is the perfect getaway for those seeking sun-drenched relaxation and tropical adventures in a stunning Caribbean setting.",
+    "src" : "../images/destination-punta-cana.jpg",
+    "sightseen" : ["Coco Bongo", "Isla Saona", "Hard Rock Casino"],
+    "review" : 4.9,
+    "price" : 10000,
+    "salePrice" : 7999,
+    "includes" : {
+      "ticket": true,
+      "meal" : true,
+      "accommodation" : true,
+      "excursions" : 2,
+      "days" : 5
+    }
+  }
+]

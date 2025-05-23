@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Athena • Project 02</title>
+</head>
+<body>
+  <main>
+    <header>
+      <nav>
+        <img src="images/MyWebsite-Logo.png" alt="MyWebsite Logo" /></a>
+        <a class="menu-toggle">☰</a>
+        <ul>
+          <li><a href="/"><img src="images/icon-star.png" alt="Star" /><span>Home</span></a></li>
+          <li><a href="/destinations.html"><img src="images/icon-dolar.png" alt="Dolar" /><span>Destinations</span></a></li>
+          <li><a href="/contact.html"><img src="images/icon-mail.png" alt="Mail" /><span>Contact</span></a></li>
+          <li>
+            <form action="search.html" method="POST">
+              <input type="text" id="search" name="search" placeholder="Search" />
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <ul class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li><a href="/destinations.html">Destinations</a></li>
+        <li>City Name</li>
+      </ul>
+      <section id="destinations">
+        <div id="profile">
+          <div class="destinationProfile">
+            <div class="image-profile">
+              <img src="https://fastly.picsum.photos/id/364/500/500.jpg?hmac=5Ole9heOcwTkcW-e1EpjCfSv3g5YM_cNJP-d8YsbFcc" alt="City Name" />
+            </div>
+            <div class="destination-details">
+              <div class="destination-description">
+                <div class="type-of-tourism">
+                  <ul class="spots">
+                    <li>Parque do Ibirapuera</li>
+                    <li>Pinacoteca</li>
+                    <li>Allianz Parque</li>
+                    <li>Avenida Paulista</li>
+                    <li>Beco do Batman</li>
+                    <li>Sé Cathedral</li>
+                    <li>Business</li>
+                    <li>Gastronomic</li>
+                  </ul>
+                  <div class="review">
+                    <div class="review-box">
+                      <div class="review-bar" style="width: 86%;"></div><!--/*(100xreview/5)*/-->
+                      <div class="review-stars">
+                        <ul>
+                          <li>★</li>
+                          <li>★</li>
+                          <li>★</li>
+                          <li>★</li>
+                          <li>★</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <span>4.3</span>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+                <h1>City Name</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum mi quam, euismod dictum metus dapibus non. Cras consequat nec enim a convallis. Duis molestie ut risus vitae lacinia. Nunc luctus congue arcu eu accumsan. Mauris at felis quis nibh finibus luctus at quis libero. Vestibulum vel lacinia lacus. Fusce aliquam egestas tortor, ut iaculis quam viverra ac.<br /><br />Phasellus vel arcu erat. Ut lobortis lacinia nisi, sed tincidunt purus convallis at. Donec mauris enim, venenatis vitae erat eu, egestas scelerisque enim. In id ipsum cursus, rutrum felis at, lobortis dui. Maecenas vitae tristique ipsum. Cras a cursus turpis. In aliquet, nisl vel consectetur fringilla, mi libero sodales lacus, nec vulputate turpis tortor at quam. Cras a pretium felis, quis rhoncus ante. Aenean massa sapien, ornare condimentum mi sed, convallis commodo neque. Duis et dolor eget nisl faucibus semper ac in ipsum. Sed felis enim, fringilla sit amet orci sed, varius porta velit. Sed vehicula consequat sem rutrum mattis. Duis metus lectus, malesuada quis erat pretium, lobortis egestas mauris. Nullam nibh sapien, dignissim sed dolor non, consequat scelerisque diam. Donec libero diam, sollicitudin ultricies nulla eget, finibus scelerisque ex.</p>
+              </div>
+              <div class="destination-offer">
+                <div class="book-trip">
+                  <h3>Book a trip TODAY</h3>
+                  <p>From <span class="price-was">$2,500</span><span class="price-total">$1,999.99</span>pp</p>
+                  <p><b>10% deposit mandatory</b></p>
+                  <form action="#">
+                    <p><label for="date">Select your date:</label></p>
+                    <input id="date" type="date" required />
+                    <p><label for="travelers">Number of travelers:</label> <input type="number" name="travelers" id="travelers" required></p>
+                    <button>Book your trip</button>
+                  </form>
+                  <aside>
+                    <p><i><img src="images/icon-plane.png" alt="Plane"></i><span>Round-trip tickets</span></p>
+                    <p><i><img src="images/icon-calendar.png" alt="Days"></i><span>10 days</span></p>
+                    <p><i><img src="images/icon-excursions.png" alt="Excursions"></i><span>8 excursions & visits</span></p>
+                    <p><i><img src="images/icon-meal.png" alt="Meal"></i><span>Meal included</span></p>
+                    <p><i><img src="images/icon-hotel.png" alt="Hotel"></i><span>Hotel included</span></p>
+                  </aside>
+                </div>
+              </div>
+            </div>
+            <div class="extra">
+              <h3>Key information</h3>
+              <details>
+                <summary>Currency</summary>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum mi quam, euismod dictum metus dapibus non. Cras consequat nec enim a convallis. Duis molestie ut risus vitae lacinia. Nunc luctus congue arcu eu accumsan. Mauris at felis.</p>
+              </details>
+              <details>
+                <summary>Passport</summary>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum mi quam, euismod dictum metus dapibus non. Cras consequat nec enim a convallis. Duis molestie ut risus vitae lacinia. Nunc luctus congue arcu eu accumsan. Mauris at felis.</p>
+              </details>
+              <details>
+                <summary>VISA</summary>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum mi quam, euismod dictum metus dapibus non. Cras consequat nec enim a convallis. Duis molestie ut risus vitae lacinia. Nunc luctus congue arcu eu accumsan. Mauris at felis.</p>
+              </details>
+              <details>
+                <summary>Yellow Fever and other vaccines</summary>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum mi quam, euismod dictum metus dapibus non. Cras consequat nec enim a convallis. Duis molestie ut risus vitae lacinia. Nunc luctus congue arcu eu accumsan. Mauris at felis.</p>
+              </details>
+            </div>
+            <div id="list">
+              <div class="destinationsResults">
+                <h2>Discover more destinations in <span>South America</span></h2>
+                <div class="destinationsList">
+                  <article>
+                    <div>
+                      <picture>
+                        <a href="#"><img src="images/destination-taj-mahal.jpg" alt="Taj Mahal in India" /></a>
+                      </picture>
+                    </div>
+                    <div>
+                      <h2>Taj Mahal</h2>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit temporibus rem ipsum ducimus dolores illo tenetur nulla minus, explicabo quibusdam fugiat doloribus eligendi laudantium officiis ex ipsam voluptas animi placeat.</p>
+                      <a href="#">Read More</a>
+                    </div>
+                  </article>
+                  <div class="clearfix"></div>
+                  <article>
+                    <div>
+                      <picture>
+                        <a href="#"><img src="images/destination-sao-paulo.jpg" alt="São Paulo in Brazil" /></a>
+                      </picture>
+                    </div>
+                    <div>
+                      <h2>São Paulo</h2>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit temporibus rem ipsum ducimus dolores illo tenetur nulla minus, explicabo quibusdam fugiat doloribus eligendi laudantium officiis ex ipsam voluptas animi placeat.</p>
+                      <a href="#">Read More</a>
+                    </div>
+                  </article>
+                  <div class="clearfix"></div>
+                  <article>
+                    <div>
+                      <picture>
+                        <a href="#"><img src="images/destination-krakow.jpg" alt="Krakow in Poland" /></a>
+                      </picture>
+                    </div>
+                    <div>
+                      <h2>Krakow</h2>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit temporibus rem ipsum ducimus dolores illo tenetur nulla minus, explicabo quibusdam fugiat doloribus eligendi laudantium officiis ex ipsam voluptas animi placeat.</p>
+                      <a href="#">Read More</a>
+                    </div>
+                  </article>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p>© 2025 All Rights Reserved</p>
+      <p>Email <a href="mailto:email@mywebsite.com">email@mywebsite.com</a> • Find us on Instagram <a href="https://www.instagram.com/mywebsite">@mywebsite</a> • Call us today: <a href="tel:8000777000">8000 777 000</a></p>
+      <address>1914 Fictional Ave. Suit 100, Devtown, Codeland, PI, 1915</address>
+      <a href="/">Home</a> • <a href="/destinations.html">Destinations</a> • <a href="/contact.html">Contact</a>
+    </footer>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
